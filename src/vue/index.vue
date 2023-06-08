@@ -110,7 +110,7 @@ export default {
         this.musicObj = this.musicData[0];
     },
     methods: {
-        // 暂停或者播放
+        // 暂停或者播放;
         playOrStopMusic() {
             if (this.isPlay) {
                 this.$refs.music.pause();
