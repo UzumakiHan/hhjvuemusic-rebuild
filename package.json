@@ -1,6 +1,6 @@
 {
   "name": "hhjvuemusic",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "音乐组件重构",
   "main": "dist/vue3/cjs/index.js",
   "module": "dist/vue3/esm/index.js",
