@@ -11,16 +11,6 @@
 npm i hhjvuemusic@0.1.7 -D
 ```
 
-引入：
-
-在`mian.js`中引入
-
-```js
-import HjVuemusic from 'hhjvuemusic'
-import 'hhjvuemusic/dist/hhjvuemusic.css'
-Vue.use(HjVuemusic)
-```
-
 使用：
 
 ```js
@@ -32,7 +22,10 @@ Vue.use(HjVuemusic)
   </div>
 </template>
 <script>
+  import HjVuemusic from 'hhjvuemusic'
+import 'hhjvuemusic/dist/hhjvuemusic.css'
 export default {
+   components:{HjVuemusic},
   data() {
     return {
       musicData: [
@@ -80,7 +73,7 @@ npm i hhjvuemusic@latest -D
 <script>
 import HjVuemusic from 'hhjvuemusic/dist/vue2/esm'
 
-export default({
+export default{
     components:{HjVuemusic},
    data() {
     return {
@@ -102,7 +95,7 @@ export default({
       ],
     };
   },
-})
+}
 </script>
 ```
 ```js
